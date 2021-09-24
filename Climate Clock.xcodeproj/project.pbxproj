@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3809FC2725606B50003BC663 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3809FC2625606B50003BC663 /* CameraViewController.swift */; };
+		3809FC2925606B80003BC663 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3809FC2825606B80003BC663 /* CameraController.swift */; };
+		386762102524DC17001C51EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3867620F2524DC17001C51EB /* SceneDelegate.swift */; };
+		38789573255C5CF4004019C5 /* FullScreenHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38789572255C5CF4004019C5 /* FullScreenHelper.swift */; };
+		389F6659255DCF2900D1C367 /* HelperMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389F6658255DCF2800D1C367 /* HelperMethods.swift */; };
+		389F665A255F1D5E00D1C367 /* Step3MakeAClockController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9C9F725578B29002203A7 /* Step3MakeAClockController.swift */; };
+		389F665B255F2D9000D1C367 /* Step4MakeAClockController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9C9F925578B40002203A7 /* Step4MakeAClockController.swift */; };
+		389F665C255F466800D1C367 /* Step5MakeAClockController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9C9FB25578B54002203A7 /* Step5MakeAClockController.swift */; };
+		389F665D255F466D00D1C367 /* Step6MakeAClockController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9C9FD25578B69002203A7 /* Step6MakeAClockController.swift */; };
+		38A9C9F025572E8A002203A7 /* RootMakeAClockController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9C9EF25572E8A002203A7 /* RootMakeAClockController.swift */; };
+		38A9C9F225578A66002203A7 /* IntroMakeAClockController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9C9F125578A66002203A7 /* IntroMakeAClockController.swift */; };
+		38A9C9F425578AEB002203A7 /* Step1MakeAClockController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9C9F325578AEB002203A7 /* Step1MakeAClockController.swift */; };
+		38A9C9F625578B0D002203A7 /* Step2MakeAClockController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9C9F525578B0D002203A7 /* Step2MakeAClockController.swift */; };
+		38A9CA0125584DEA002203A7 /* Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38A9CA0025584DEA002203A7 /* Raleway-Medium.ttf */; };
+		38DA272F251AAD2100511C94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DA272E251AAD2100511C94 /* AppDelegate.swift */; };
+		38DA2733251AAD2200511C94 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DA2732251AAD2200511C94 /* MainViewController.swift */; };
+		38DA2736251AAD2200511C94 /* Main-1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38DA2734251AAD2200511C94 /* Main-1.storyboard */; };
+		38DA2738251AAD2800511C94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38DA2737251AAD2800511C94 /* Assets.xcassets */; };
+		38DA273B251AAD2800511C94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38DA2739251AAD2800511C94 /* LaunchScreen.storyboard */; };
+		38DA2743251AAF1800511C94 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DA2742251AAF1800511C94 /* InfoViewController.swift */; };
+		38DA2745251AB11800511C94 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DA2744251AB11800511C94 /* TabViewController.swift */; };
+		38DA274A251BE6A000511C94 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38DA2746251BE69F00511C94 /* Raleway-Regular.ttf */; };
+		38DA274B251BE6A000511C94 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38DA2747251BE6A000511C94 /* Raleway-Bold.ttf */; };
+		38DA274C251BE6A000511C94 /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38DA2748251BE6A000511C94 /* Raleway-Light.ttf */; };
+		38DA274D251BE6A000511C94 /* Raleway-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38DA2749251BE6A000511C94 /* Raleway-Thin.ttf */; };
+		38F97B9E252BD381001F6266 /* WebController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F97B9D252BD381001F6266 /* WebController.swift */; };
+		38F97BA0252BD3AF001F6266 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F97B9F252BD3AF001F6266 /* Constants.swift */; };
+		38F97BA2252BD3DA001F6266 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38F97BA1252BD3DA001F6266 /* Localizable.strings */; };
+		38F97BA4252BD3E7001F6266 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38F97BA3252BD3E7001F6266 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3809FC2625606B50003BC663 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		3809FC2825606B80003BC663 /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		3867620F2524DC17001C51EB /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		38789572255C5CF4004019C5 /* FullScreenHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FullScreenHelper.swift; path = "Climate Clock/FullScreenHelper.swift"; sourceTree = SOURCE_ROOT; };
+		389F6658255DCF2800D1C367 /* HelperMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperMethods.swift; sourceTree = "<group>"; };
+		38A9C9EF25572E8A002203A7 /* RootMakeAClockController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootMakeAClockController.swift; sourceTree = "<group>"; };
+		38A9C9F125578A66002203A7 /* IntroMakeAClockController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroMakeAClockController.swift; sourceTree = "<group>"; };
+		38A9C9F325578AEB002203A7 /* Step1MakeAClockController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step1MakeAClockController.swift; sourceTree = "<group>"; };
+		38A9C9F525578B0D002203A7 /* Step2MakeAClockController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step2MakeAClockController.swift; sourceTree = "<group>"; };
+		38A9C9F725578B29002203A7 /* Step3MakeAClockController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step3MakeAClockController.swift; sourceTree = "<group>"; };
+		38A9C9F925578B40002203A7 /* Step4MakeAClockController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step4MakeAClockController.swift; sourceTree = "<group>"; };
+		38A9C9FB25578B54002203A7 /* Step5MakeAClockController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step5MakeAClockController.swift; sourceTree = "<group>"; };
+		38A9C9FD25578B69002203A7 /* Step6MakeAClockController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step6MakeAClockController.swift; sourceTree = "<group>"; };
+		38A9CA0025584DEA002203A7 /* Raleway-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Medium.ttf"; sourceTree = "<group>"; };
+		38DA272B251AAD2100511C94 /* Climate Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Climate Clock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38DA272E251AAD2100511C94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38DA2732251AAD2200511C94 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		38DA2735251AAD2200511C94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Main-1.storyboard"; sourceTree = "<group>"; };
+		38DA2737251AAD2800511C94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38DA273A251AAD2800511C94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38DA273C251AAD2800511C94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38DA2742251AAF1800511C94 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		38DA2744251AB11800511C94 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		38DA2746251BE69F00511C94 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		38DA2747251BE6A000511C94 /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		38DA2748251BE6A000511C94 /* Raleway-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Light.ttf"; sourceTree = "<group>"; };
+		38DA2749251BE6A000511C94 /* Raleway-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Thin.ttf"; sourceTree = "<group>"; };
+		38F97B9D252BD381001F6266 /* WebController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebController.swift; sourceTree = "<group>"; };
+		38F97B9F252BD3AF001F6266 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		38F97BA1252BD3DA001F6266 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		38F97BA3252BD3E7001F6266 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38DA2728251AAD2100511C94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38A9C9FF25578B7B002203A7 /* Make A Clock */ = {
+			isa = PBXGroup;
+			children = (
+				38A9C9EF25572E8A002203A7 /* RootMakeAClockController.swift */,
+				38A9C9F125578A66002203A7 /* IntroMakeAClockController.swift */,
+				38A9C9F325578AEB002203A7 /* Step1MakeAClockController.swift */,
+				38A9C9F525578B0D002203A7 /* Step2MakeAClockController.swift */,
+				38A9C9F725578B29002203A7 /* Step3MakeAClockController.swift */,
+				38A9C9F925578B40002203A7 /* Step4MakeAClockController.swift */,
+				38A9C9FB25578B54002203A7 /* Step5MakeAClockController.swift */,
+				38A9C9FD25578B69002203A7 /* Step6MakeAClockController.swift */,
+				3809FC2625606B50003BC663 /* CameraViewController.swift */,
+				3809FC2825606B80003BC663 /* CameraController.swift */,
+				38789572255C5CF4004019C5 /* FullScreenHelper.swift */,
+			);
+			path = "Make A Clock";
+			sourceTree = "<group>";
+		};
+		38DA2722251AAD2100511C94 = {
+			isa = PBXGroup;
+			children = (
+				38DA272D251AAD2100511C94 /* Climate Clock */,
+				38DA272C251AAD2100511C94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38DA272C251AAD2100511C94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38DA272B251AAD2100511C94 /* Climate Clock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38DA272D251AAD2100511C94 /* Climate Clock */ = {
+			isa = PBXGroup;
+			children = (
+				38DA272E251AAD2100511C94 /* AppDelegate.swift */,
+				38F97B9C252BD30D001F6266 /* Fonts */,
+				38F97B9B252BD2FD001F6266 /* Old */,
+				38DA2737251AAD2800511C94 /* Assets.xcassets */,
+				389F6658255DCF2800D1C367 /* HelperMethods.swift */,
+				38DA2739251AAD2800511C94 /* LaunchScreen.storyboard */,
+				38DA273C251AAD2800511C94 /* Info.plist */,
+				38F97B9D252BD381001F6266 /* WebController.swift */,
+				38F97BA3252BD3E7001F6266 /* Main.storyboard */,
+				38A9C9FF25578B7B002203A7 /* Make A Clock */,
+				38F97B9F252BD3AF001F6266 /* Constants.swift */,
+				38F97BA1252BD3DA001F6266 /* Localizable.strings */,
+			);
+			path = "Climate Clock";
+			sourceTree = "<group>";
+		};
+		38F97B9B252BD2FD001F6266 /* Old */ = {
+			isa = PBXGroup;
+			children = (
+				38DA2732251AAD2200511C94 /* MainViewController.swift */,
+				38DA2734251AAD2200511C94 /* Main-1.storyboard */,
+				38DA2744251AB11800511C94 /* TabViewController.swift */,
+				38DA2742251AAF1800511C94 /* InfoViewController.swift */,
+				3867620F2524DC17001C51EB /* SceneDelegate.swift */,
+			);
+			path = Old;
+			sourceTree = "<group>";
+		};
+		38F97B9C252BD30D001F6266 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				38DA2747251BE6A000511C94 /* Raleway-Bold.ttf */,
+				38DA2748251BE6A000511C94 /* Raleway-Light.ttf */,
+				38DA2746251BE69F00511C94 /* Raleway-Regular.ttf */,
+				38A9CA0025584DEA002203A7 /* Raleway-Medium.ttf */,
+				38DA2749251BE6A000511C94 /* Raleway-Thin.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38DA272A251AAD2100511C94 /* Climate Clock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38DA273F251AAD2800511C94 /* Build configuration list for PBXNativeTarget "Climate Clock" */;
+			buildPhases = (
+				38DA2727251AAD2100511C94 /* Sources */,
+				38DA2728251AAD2100511C94 /* Frameworks */,
+				38DA2729251AAD2100511C94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Climate Clock";
+			productName = "Climate Clock";
+			productReference = 38DA272B251AAD2100511C94 /* Climate Clock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38DA2723251AAD2100511C94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Matthew Frohman";
+				TargetAttributes = {
+					38DA272A251AAD2100511C94 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 38DA2726251AAD2100511C94 /* Build configuration list for PBXProject "Climate Clock" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38DA2722251AAD2100511C94;
+			productRefGroup = 38DA272C251AAD2100511C94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38DA272A251AAD2100511C94 /* Climate Clock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38DA2729251AAD2100511C94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38DA273B251AAD2800511C94 /* LaunchScreen.storyboard in Resources */,
+				38DA2738251AAD2800511C94 /* Assets.xcassets in Resources */,
+				38DA2736251AAD2200511C94 /* Main-1.storyboard in Resources */,
+				38DA274C251BE6A000511C94 /* Raleway-Light.ttf in Resources */,
+				38DA274B251BE6A000511C94 /* Raleway-Bold.ttf in Resources */,
+				38F97BA2252BD3DA001F6266 /* Localizable.strings in Resources */,
+				38F97BA4252BD3E7001F6266 /* Main.storyboard in Resources */,
+				38A9CA0125584DEA002203A7 /* Raleway-Medium.ttf in Resources */,
+				38DA274A251BE6A000511C94 /* Raleway-Regular.ttf in Resources */,
+				38DA274D251BE6A000511C94 /* Raleway-Thin.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38DA2727251AAD2100511C94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386762102524DC17001C51EB /* SceneDelegate.swift in Sources */,
+				389F6659255DCF2900D1C367 /* HelperMethods.swift in Sources */,
+				38DA2733251AAD2200511C94 /* MainViewController.swift in Sources */,
+				38F97B9E252BD381001F6266 /* WebController.swift in Sources */,
+				38789573255C5CF4004019C5 /* FullScreenHelper.swift in Sources */,
+				38A9C9F625578B0D002203A7 /* Step2MakeAClockController.swift in Sources */,
+				389F665D255F466D00D1C367 /* Step6MakeAClockController.swift in Sources */,
+				38DA272F251AAD2100511C94 /* AppDelegate.swift in Sources */,
+				38A9C9F225578A66002203A7 /* IntroMakeAClockController.swift in Sources */,
+				38A9C9F025572E8A002203A7 /* RootMakeAClockController.swift in Sources */,
+				38F97BA0252BD3AF001F6266 /* Constants.swift in Sources */,
+				389F665C255F466800D1C367 /* Step5MakeAClockController.swift in Sources */,
+				389F665B255F2D9000D1C367 /* Step4MakeAClockController.swift in Sources */,
+				389F665A255F1D5E00D1C367 /* Step3MakeAClockController.swift in Sources */,
+				38DA2743251AAF1800511C94 /* InfoViewController.swift in Sources */,
+				38A9C9F425578AEB002203A7 /* Step1MakeAClockController.swift in Sources */,
+				3809FC2925606B80003BC663 /* CameraController.swift in Sources */,
+				38DA2745251AB11800511C94 /* TabViewController.swift in Sources */,
+				3809FC2725606B50003BC663 /* CameraViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		38DA2734251AAD2200511C94 /* Main-1.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38DA2735251AAD2200511C94 /* Base */,
+			);
+			name = "Main-1.storyboard";
+			sourceTree = "<group>";
+		};
+		38DA2739251AAD2800511C94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38DA273A251AAD2800511C94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38DA273D251AAD2800511C94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38DA273E251AAD2800511C94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38DA2740251AAD2800511C94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = 4Z8W7A2URZ;
+				INFOPLIST_FILE = "Climate Clock/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matt.ClimateClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		38DA2741251AAD2800511C94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = 4Z8W7A2URZ;
+				INFOPLIST_FILE = "Climate Clock/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matt.ClimateClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38DA2726251AAD2100511C94 /* Build configuration list for PBXProject "Climate Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38DA273D251AAD2800511C94 /* Debug */,
+				38DA273E251AAD2800511C94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38DA273F251AAD2800511C94 /* Build configuration list for PBXNativeTarget "Climate Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38DA2740251AAD2800511C94 /* Debug */,
+				38DA2741251AAD2800511C94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38DA2723251AAD2100511C94 /* Project object */;
+}
