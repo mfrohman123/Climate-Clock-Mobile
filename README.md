@@ -1,5 +1,5 @@
 # Climate-Clock-Mobile
-A mobile adaptation of https://climateclock.world
+A iOS mobile adaptation of https://climateclock.world
 
 Built using a WKWebView wrapper from somewhere I can't find the link to anymore. The app was submitted to the iOS App Store several times, but it was rejected each one for "minimum functionality." Iterated through new features several times to overcome this, but to no avail. The Climate Clock team decided to go in a different direction anyways, so here is the app.
 
