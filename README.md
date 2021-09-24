@@ -1,7 +1,7 @@
 # Climate-Clock-Mobile
 A iOS mobile adaptation of https://climateclock.world
 
-Built using a WKWebView wrapper from somewhere I can't find the link to anymore. The App Store ruled that were not enough features to launch, so here is the app.
+Built using a WKWebView wrapper from somewhere I can't find the link to anymore. Apple ruled that were not enough features to launch in the App Store, so here is the app.
 
 The app includes a mobile view of the original Climate Clock website, as well as a custom built guide to create your very own Climate Clock and share it on social media.
 
